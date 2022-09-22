@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5492013204664768633
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6629554295736267256, guid: b5835571b0b64164c869b722d7ce9bbd, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629554295736267258, guid: b5835571b0b64164c869b722d7ce9bbd, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1183879020, guid: a5b64ca256e306146affdfccce6cc10c, type: 3}
+    - target: {fileID: 6629554295736267259, guid: b5835571b0b64164c869b722d7ce9bbd, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629554295736267259, guid: b5835571b0b64164c869b722d7ce9bbd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629554295736267259, guid: b5835571b0b64164c869b722d7ce9bbd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629554295736267259, guid: b5835571b0b64164c869b722d7ce9bbd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629554295736267259, guid: b5835571b0b64164c869b722d7ce9bbd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629554295736267259, guid: b5835571b0b64164c869b722d7ce9bbd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629554295736267259, guid: b5835571b0b64164c869b722d7ce9bbd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629554295736267259, guid: b5835571b0b64164c869b722d7ce9bbd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629554295736267259, guid: b5835571b0b64164c869b722d7ce9bbd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629554295736267259, guid: b5835571b0b64164c869b722d7ce9bbd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629554295736267259, guid: b5835571b0b64164c869b722d7ce9bbd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629554295736267263, guid: b5835571b0b64164c869b722d7ce9bbd, type: 3}
+      propertyPath: m_Name
+      value: openDoor
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b5835571b0b64164c869b722d7ce9bbd, type: 3}
+--- !u!1 &1168513029206845830 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6629554295736267263, guid: b5835571b0b64164c869b722d7ce9bbd, type: 3}
+  m_PrefabInstance: {fileID: 5492013204664768633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4140217299086666209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168513029206845830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4851c4ca47a602d4dba686a7a388eaea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: {fileID: 0}
+  door: {fileID: 2952755793998544951}
+  nextLevel: scene1
+  isMenuScene: 1
+--- !u!114 &2952755793998544951 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7263680754873194574, guid: b5835571b0b64164c869b722d7ce9bbd, type: 3}
+  m_PrefabInstance: {fileID: 5492013204664768633}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168513029206845830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bebe84bc2cf6a4e41ab5a4b18199f8f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

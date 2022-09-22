@@ -28,10 +28,7 @@ public class Door : MonoBehaviour
         isOpen = true;
         animator.SetBool( "doorIsOpen", true); 
     }
-    void Update()
-    {
-        
-    }
+    
 }
     
 
